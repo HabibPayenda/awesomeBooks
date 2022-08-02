@@ -3,13 +3,16 @@ const author = document.getElementById('author');
 const addBtn = document.getElementById('add');
 const list = document.getElementById('list');
 
+const listbooks = JSON.parse(localStorage.getItem('books'));
+
 class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;
   }
 
-  this.add(title, author) {
+  add(title, author) {
+    this.new = 'new';
     const newBook = { title, author };
     if (localStorage.getItem('books')) {
       let savedBooks = JSON.parse(localStorage.getItem('books'));
@@ -21,6 +24,7 @@ class Book {
   }
 
   remove(id) {
+    this.new = 'new';
     const list = listbooks.filter((book) => book.title !== listbooks[id].title);
     localStorage.setItem('books', JSON.stringify(list));
   }
@@ -35,8 +39,6 @@ addBtn.addEventListener('click', (e) => {
   newBook.add(titleText, authorText);
   document.location.reload();
 });
-
-const listbooks = JSON.parse(localStorage.getItem('books'));
 
 listbooks.forEach((book) => {
   const bookCard = document.createElement('div');
@@ -58,8 +60,6 @@ listbooks.forEach((book) => {
     newBook.remove(id);
     document.location.reload();
   });
-  const hr = document.createElement('hr');
-  const br = document.createElement('br');
 
   bookCard.append(bookTitle, removeBtn);
   list.append(bookCard);
