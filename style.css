@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+}
+
 .h2 {
   display: none;
 }
@@ -16,6 +22,14 @@
   border: solid 2px rgb(0, 0, 0);
   margin: 30px;
   padding: 0.0001px 10px;
+}
+
+.addBook::before {
+  content: "";
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  margin-bottom: 30px;
 }
 
 .bookCard {
