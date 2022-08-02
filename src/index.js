@@ -4,7 +4,7 @@ const addBtn = document.getElementById('add');
 const list = document.getElementById('list');
 
 class Book {
-  Constructor(title, author) {
+  constructor(title, author) {
     this.title = title;
     this.author = author;
   }
@@ -14,6 +14,7 @@ addBtn.addEventListener('click', (e) => {
   e.preventDefault();
   const titleText = title.value;
   const authorText = author.value;
+
   const newBook = new Book(titleText, authorText);
   if (localStorage.getItem('books')) {
     let savedBooks = JSON.parse(localStorage.getItem('books'));
