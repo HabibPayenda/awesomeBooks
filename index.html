@@ -8,22 +8,32 @@
   <title>Awesome Books</title>
 </head>
 <body>
+  <nav class="navbar">
+    <a href="#" class="logo">Awesome Books</a>
+    <ul class="navbarItemContainer">
+      <li class="navItem">
+        <a id="listMenu" href="#">List</a>
+      </li>
+      <li class="navItem">
+        <a id="addNewMenu" href="#">Add New</a>
+      </li>
+      <li class="navItem">
+        <a id="contactMenu" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
   <header class="header">
-    <h2>All awesome books</h2>
   </header>
-  <main>
+  <main id="main" class="main">
     <section id="list" class="list">
         <h2 class="h2"> linters fixing</h2>
     </section>
-    <section class="addNew">
-        <h2 class="addBook"> Add a new book</h2>
-      <form action="#" class="addForm">
-        <input class="text" type="text" required id="title" name="title" placeholder="Title"> 
-        <input class="text" type="text" required id="author" name="author" placeholder="Author"> 
-        <button class="button" type="button" id="add">Add</button>
-      </form>
-    </section>
   </main>
+  <footer class="footer">
+    <p class="footerText">
+      Copyright: 2022 Serkai all rights reserved.
+    </p>
+  </footer>
   <script src="./src/index.js"></script>
 </body>
 </html>
