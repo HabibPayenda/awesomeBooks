@@ -7,7 +7,7 @@ const contactMenu = document.getElementById('contactMenu');
 
 let menu = '';
 
-const listbooks = JSON.parse(localStorage.getItem('books'));
+const listbooks = localStorage.getItem('books') ? JSON.parse(localStorage.getItem('books')) : [];
 
 class Book {
   constructor(title, author) {
@@ -37,6 +37,13 @@ class Book {
 const newBook = new Book();
 
 const listNavMenu = () => {
+  menu = 'list';
+  if (listbooks.length <= 0) {
+    main.innerHTML = '';
+    const noBooks = document.createElement('h1');
+    noBooks.innerText = 'Please add some books!';
+    main.append(noBooks);
+  }
   const allBooks = document.createElement('h1');
   allBooks.innerText = 'All awesome books';
   listbooks.forEach((book) => {
