@@ -2,7 +2,16 @@
 
 # AwesomeBooks
 
-This project is about to give us a handle as a student on how to make interactive a web site.
+AwesomeBooks is a small app where we can keep trak of home library, the main features it provides are:
+    1:Adding a new book.
+    2:Editing a book title.
+    3:Removing a book.
+    4:Keeping track of the books in the browser local storage.
+The technologies used in this projects are:
+    1:HTML
+    2:CSS
+    3:JavaScript
+    4:LocalStorage
 
 ## Built With
 
