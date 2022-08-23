@@ -2,48 +2,33 @@
 
 # AwesomeBooks
 
-AwesomeBooks is a small app where we can keep trak of home library, the main features it provides are:
-    1:Adding a new book.
-    2:Editing a book title.
-    3:Removing a book.
-    4:Keeping track of the books in the browser local storage.
-The technologies used in this projects are:
-    1:HTML
-    2:CSS
-    3:JavaScript
-    4:LocalStorage
+AwesomeBooks is a small app where we can keep trak of home library, the main features it provides are: - Adding a new book. - Editing a book title. - Removing a book. - Keeping track of the books in the browser local storage.
 
 ## Built With
 
-- Html, CSS & JavaScript
-
+The technologies used in this projects are: - HTML - CSS - JavaScript - LocalStorage
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-If you want to use this project locally on your device you will need the following tools:
-    1: Node.js
-    2: NPM
-    3: Git
+
+If you want to use this project locally on your device you will need the following tools: - Node.js - NPM - Git
 
 ### Setup
 
- To get the project in your local environment, run 
+To get the project in your local environment, run
 
- ```
+```
 
- git clone git@github.com:HabibPayenda/awesomeBooks.git
- 
- ```
-  in your terminal
+git clone git@github.com:HabibPayenda/awesomeBooks.git
 
-  To get actions run ```npm install```
+```
 
-  
+in your terminal
 
-
+To get actions run `npm install`
 
 ## Authors
 
@@ -59,11 +44,9 @@ If you want to use this project locally on your device you will need the followi
 - Twitter: [@GMItahi](https://https://twitter.com/GMitahi)
 - LinkedIn: [ghislainmitahi](https://linkedin.com/in/ghislain-mitahi/)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 
 ## Show your support
 
@@ -75,11 +58,6 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
-
