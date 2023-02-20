@@ -108,6 +108,7 @@ body {
   bottom: 0;
   border: solid 5px white;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .headerLeftContent {
@@ -217,12 +218,51 @@ body {
 }
 
 .headerRight {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex: 1.3;
   background-color: purple;
   color: white;
   height: 100%;
+}
+
+.accountContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accountLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 36px;
+  padding: 16px;
+}
+
+.accountLink {
+  background-color: rgb(80, 1, 80);
+  padding: 3px;
+  background-clip: padding-box;
+  border-radius: 5px;
+}
+
+.graphics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+  width: 280px;
+  background-color: rgb(244, 194, 133);
+  align-self: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%);
+  border-radius: 100%;
+  left: 0;
+  border: solid 50px rgb(80, 1, 80);
 }
 
 .main {
