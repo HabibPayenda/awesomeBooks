@@ -387,6 +387,7 @@ body {
   justify-content: center;
   width: 100%;
   gap: 36px;
+  position: relative;
 }
 
 .topSellsCardsContainer {
@@ -428,6 +429,22 @@ body {
   border-radius: 10px;
   overflow: hidden;
   outline: solid 4px #eee;
+}
+
+.topSellsTotalPriceContainer {
+  display: flex;
+  width: 150px;
+  height: 75px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 75px 75px 0 0;
+  box-shadow: 1px 1px 7px rgb(80, 1, 80);
+  border: solid 0.5px rgb(80, 1, 80);
+  position: absolute;
+  bottom: -20px;
+  font-weight: bold;
 }
 
 .main {
