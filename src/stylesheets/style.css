@@ -97,6 +97,19 @@ body {
   color: goldenrod;
 }
 
+.headerLeftImg {
+  background-image: url(../images/students.png);
+  background-size: cover;
+  background-position: right;
+  height: 80%;
+  width: 360px;
+  position: absolute;
+  right: -150px;
+  bottom: 0;
+  border: solid 5px white;
+  border-radius: 5px;
+}
+
 .headerLeftContent {
   position: relative;
   display: flex;
@@ -141,6 +154,7 @@ body {
   border-radius: 30px;
   width: 80%;
   align-self: center;
+  z-index: 1;
 }
 
 .mainSearch {
