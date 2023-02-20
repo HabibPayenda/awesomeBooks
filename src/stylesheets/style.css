@@ -353,6 +353,100 @@ body {
   width: 90%;
 }
 
+.topSells {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+  margin-bottom: 110px;
+}
+
+.topSellsHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.topSellsHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.ourProducts {
+  font-size: 18px;
+}
+
+.topSellsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 36px;
+  position: relative;
+}
+
+.topSellsCardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.topSellsCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 350px;
+  border: solid 10px rgb(80, 1, 80);
+  border-radius: 10px;
+  position: relative;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  background-color: #eee;
+  padding: 3px 10px;
+  padding-left: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.topSellsCardImage {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: solid 4px #eee;
+}
+
+.topSellsTotalPriceContainer {
+  display: flex;
+  width: 150px;
+  height: 75px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 75px 75px 0 0;
+  box-shadow: 1px 1px 7px rgb(80, 1, 80);
+  border: solid 0.5px rgb(80, 1, 80);
+  position: absolute;
+  bottom: -20px;
+  font-weight: bold;
+}
+
 .main {
   display: flex;
   flex-direction: column;
