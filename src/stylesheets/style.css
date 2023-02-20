@@ -156,6 +156,45 @@ body {
   border-radius: 30px;
 }
 
+.stories {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ccc;
+  border: solid 5px white;
+  border-radius: 5px;
+  width: 50%;
+  height: 140px;
+  gap: 24px;
+  padding: 5px 5px 5px 24px;
+}
+
+.allStories {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+  background-color: purple;
+  color: white;
+  padding: 13px 5px;
+  border: solid 3px white;
+  font-size: 12px;
+  border-radius: 100%;
+}
+
+.stroyItem {
+  height: 90%;
+  background-color: purple;
+  width: 23%;
+  background-image: url(../images/book.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border-radius: 8px;
+}
+
 .headerRight {
   display: flex;
   flex-direction: column;
