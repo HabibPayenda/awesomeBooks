@@ -353,6 +353,42 @@ body {
   width: 90%;
 }
 
+.topSells {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+}
+
+.topSellsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.topSellsCardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.topSellsCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 350px;
+  border: solid 10px rgb(80, 1, 80);
+}
+
+.topSellsCardImage {
+  width: 100%;
+}
+
 .main {
   display: flex;
   flex-direction: column;
