@@ -2,60 +2,13 @@
 
 * {
   font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #92f192;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: solid 1px goldenrod;
-  padding: 0.0001px 30px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-.navbarItemContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  height: 50px;
-  margin: 0;
-  gap: 10px;
-}
-
-.navItem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: goldenrod;
-  height: 100%;
-  padding: 0.0001px 10px;
-  transition: all 0.3s;
-  width: 100px;
-}
-
-.navItem:hover {
-  background-color: black;
-  outline: solid 2px goldenrod;
-  transform: translateX(10px);
-}
-
-.navItem:last-child:hover {
-  transform: translateX(-10px);
-}
-
-.navItem:hover a {
-  color: goldenrod;
 }
 
 .h2 {
@@ -93,6 +46,106 @@ body {
   color: black;
   font-weight: bold;
   font-size: 34px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbarItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  height: 50px;
+  margin: 0;
+  gap: 10px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  padding: 0.0001px 10px;
+  transition: all 0.3s;
+  width: 100px;
+}
+
+.navItem:hover {
+  background-color: black;
+  outline: solid 2px goldenrod;
+  transform: translateX(10px);
+}
+
+.navItem:last-child:hover {
+  transform: translateX(-10px);
+}
+
+.navItem:hover a {
+  color: goldenrod;
+}
+
+.headerLeftContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  gap: 16px;
+}
+
+.exploreText {
+  align-self: flex-start;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mainHeading {
+  font-size: 46px;
+}
+
+.rotated {
+  background-color: purple;
+  padding: 0 16px;
+  border-radius: 100%;
+  transform: rotateX('45') !important;
+  color: white;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5px 5px 5px 30px;
+  border-radius: 30px;
+  width: 80%;
+  align-self: center;
+}
+
+.mainSearch {
+  flex: 4;
+  border: none;
+  outline: 0;
+}
+
+.searchBtn {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 30px;
 }
 
 .headerRight {
