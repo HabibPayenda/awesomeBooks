@@ -435,9 +435,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: fixed;
-  bottom: 0;
-  left: 0; */
   outline: solid 3px goldenrod;
   background-color: #a4f560;
   color: black;
