@@ -22,7 +22,7 @@ body {
   width: 100%;
   background-color: #eee;
   height: 85vh;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 
 .headerLeft {
@@ -295,6 +295,55 @@ body {
 .iconTwo {
   top: -100px;
   right: -50px;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 48px;
+  gap: 36px;
+  margin-bottom: 110px;
+}
+
+.categoriesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: solid 2px #eee;
+  box-shadow: 1px 1px 6px #eee;
+  height: 220px;
+  width: 160px;
+}
+
+.categoryEmoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+  font-size: 36px;
+}
+
+.categoryTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  flex: 1;
+  width: 70%;
 }
 
 .main {
