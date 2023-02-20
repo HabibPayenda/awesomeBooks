@@ -77,6 +77,22 @@ body {
   flex: 2;
   background-color: #eee;
   height: 100%;
+  padding: 0 48px;
+}
+
+.headerLeftNavContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.logo {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 34px;
 }
 
 .headerRight {
