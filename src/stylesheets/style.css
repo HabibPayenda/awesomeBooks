@@ -265,6 +265,32 @@ body {
   border: solid 50px rgb(80, 1, 80);
 }
 
+.iconsContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  right: -130px;
+  border-radius: 100px;
+}
+
+.iconOne {
+  top: 230px;
+  right: -50px;
+}
+
+.iconTwo {
+  top: -100px;
+  right: -50px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
