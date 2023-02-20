@@ -359,6 +359,18 @@ body {
   align-items: center;
   justify-content: center;
   padding: 36px;
+  margin-bottom: 110px;
+}
+
+.topSellsHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.topSellsHeading {
+
 }
 
 .topSellsContainer {
@@ -367,6 +379,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  gap: 36px;
 }
 
 .topSellsCardsContainer {
@@ -380,13 +393,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 240px;
   height: 350px;
   border: solid 10px rgb(80, 1, 80);
+  border-radius: 10px;
 }
 
 .topSellsCardImage {
   width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: solid 4px #eee;
 }
 
 .main {
