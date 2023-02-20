@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.h2 {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #eee;
+  height: 85vh;
+  margin-bottom: 100px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background-color: #eee;
+  height: 100%;
+  padding: 0 48px;
+  gap: 48px;
+  position: relative;
+}
+
+.headerLeftNavContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.logo {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbarItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  height: 50px;
+  margin: 0;
+  gap: 10px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  padding: 0.0001px 10px;
+  transition: all 0.3s;
+  width: 100px;
+}
+
+.navItem:hover {
+  background-color: black;
+  outline: solid 2px goldenrod;
+  transform: translateX(10px);
+}
+
+.navItem:last-child:hover {
+  transform: translateX(-10px);
+}
+
+.navItem:hover a {
+  color: goldenrod;
+}
+
+.headerLeftImg {
+  background-image: url(../images/students.png);
+  background-size: cover;
+  background-position: right;
+  height: 80%;
+  width: 360px;
+  position: absolute;
+  right: -150px;
+  bottom: 0;
+  border: solid 5px white;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.headerLeftContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  gap: 16px;
+}
+
+.exploreText {
+  align-self: flex-start;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mainHeading {
+  font-size: 48px;
+}
+
+.rotated {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  background-color: rgb(80, 1, 80);
+  padding: 0 20px;
+  border-radius: 100%;
+  transform: rotate(-30deg) !important;
+  color: white;
+}
+
+.shifted {
+  padding-left: 70px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5px 5px 5px 30px;
+  border-radius: 30px;
+  width: 80%;
+  align-self: center;
+  z-index: 1;
+}
+
+.mainSearch {
+  flex: 4;
+  border: none;
+  outline: 0;
+}
+
+.searchBtn {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  border-radius: 30px;
+}
+
+.storiesContainer {
+  position: absolute;
+  bottom: -70px;
+}
+
+.stories {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ccc;
+  border: solid 5px white;
+  border-radius: 5px;
+  width: 30vw;
+  height: 140px;
+  gap: 24px;
+  padding: 5px 5px 5px 24px;
+}
+
+.allStories {
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  background-color: rgb(80, 1, 80);
+  color: white;
+  padding: 5px 8px;
+  border: solid 3px white;
+  font-size: 12px;
+  border-radius: 100%;
+}
+
+.stroyItem {
+  height: 90%;
+  background-color: purple;
+  width: 23%;
+  background-image: url(../images/book.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.headerRight {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1.3;
+  background-color: purple;
+  color: white;
+  height: 100%;
+}
+
+.accountContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accountLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 36px;
+  padding: 16px;
+}
+
+.accountLink {
+  background-color: rgb(80, 1, 80);
+  padding: 3px;
+  background-clip: padding-box;
+  border-radius: 5px;
+}
+
+.graphics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+  width: 280px;
+  background-color: rgb(244, 194, 133);
+  align-self: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%);
+  border-radius: 100%;
+  left: 0;
+  border: solid 50px rgb(80, 1, 80);
+}
+
+.iconsContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 5px #eee;
+  font-size: 24px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  right: -130px;
+  border-radius: 100px;
+}
+
+.iconOne {
+  top: 230px;
+  right: -50px;
+}
+
+.iconTwo {
+  top: -100px;
+  right: -50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 30px;
+  padding: 0.0001px 10px;
+  width: 95%;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+  padding: 0.0001px 10px;
+  border-radius: 10px;
+}
+
+.bookTitle {
+  font-weight: bold;
+}
+
+.remove {
+  transition: all 0.3s;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.remove:hover {
+  transform: translateY(-2px);
+}
+
+.remove:active {
+  transform: translateY(1px);
+}
+
+.addNew {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.addBook {
+  margin-top: 100px;
+  color: black;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text {
+  width: 300px;
+  height: 30px;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: goldenrod;
+  border: solid 1px goldenrod;
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+
+.text:focus {
+  outline: solid 1.8px goldenrod;
+}
+
+.text::placeholder {
+  font-size: 16px;
+  padding-left: 2px;
+  color: goldenrod;
+}
+
+.button {
+  width: 50px;
+  align-self: flex-end;
+  background-color: #53c453;
+  color: black;
+  font-weight: bold;
+  border: solid 1px goldenrod;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 1px 1px 10px rgb(221, 185, 25);
+  background-color: goldenrod;
+}
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 1px 1px 3px rgb(221, 185, 25);
+  background-color: goldenrod;
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactText {
+  margin-top: 100px;
+}
+
+.p2 {
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.contactList {
+  list-style: square;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: solid 3px goldenrod;
+  background-color: #a4f560;
+  color: black;
+  width: 95%;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+
+.footerText {
+  margin: 15px;
+}

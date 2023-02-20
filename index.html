@@ -4,25 +4,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./src/stylesheets/style.css">
+  <script src="https://kit.fontawesome.com/105bcdf182.js" crossorigin="anonymous"></script>
   <title>Awesome Books</title>
 </head>
 <body>
-  <nav class="navbar">
-    <a href="#" class="logo">Awesome Books</a>
-    <ul class="navbarItemContainer">
-      <li class="navItem">
-        <a id="listMenu" href="#">List</a>
-      </li>
-      <li class="navItem">
-        <a id="addNewMenu" href="#">Add New</a>
-      </li>
-      <li class="navItem">
-        <a id="contactMenu" href="#">Contact</a>
-      </li>
-    </ul>
-  </nav>
   <header class="header">
+    <div class="headerLeft">
+      <div class="headerLeftNavContainer">
+        <a href="#" class="logo">Awesome Books</a>
+        <nav class="navbar">
+          <ul class="navbarItemContainer">
+            <li class="navItem">
+              <a id="listMenu" href="#">List</a>
+            </li>
+            <li class="navItem">
+              <a id="addNewMenu" href="#">Add New</a>
+            </li>
+            <li class="navItem">
+              <a id="contactMenu" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="headerLeftImg"></div>
+      <div class="headerLeftContent">
+        <p class="exploreText">Explore Your Favarite Books</p>
+        <h1 class="mainHeading">Get Your New <span class="rotated">B</span> <span class="shifted">ook With The</span> Best Price</h1>
+      </div>
+      <div class="searchContainer">
+        <input type="text" placeholder="Search books, authors, categories..." class="mainSearch">
+        <button type="button" class="searchBtn">Search</button>
+      </div>
+      <div class="storiesContainer">
+        <div class="stories">
+          <div class="allStories">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="stroyItem"></div>
+          <div class="stroyItem"></div>
+          <div class="stroyItem"></div>
+        </div>
+      </div>
+    </div>
+    <div class="headerRight">
+      <div class="accountContainer">
+        <ul class="accountLinks">
+          <i class="fa-solid fa-bell"></i>
+          <li class="accountLink">Sing In</li>
+          <li class="accountLink">Create Account</li>
+        </ul>
+      </div>
+      <div class="graphics">
+        <div class="iconsContainer">
+          <div class="iconOne icon">😍</div>
+          <div class="iconTwo icon">📚</div>
+          <div class="iconThree icon">📓</div>
+        </div>
+      </div>
+    </div>
+    
   </header>
   <main id="main" class="main">
     <section id="list" class="list">
@@ -34,6 +75,6 @@
       Copyright: 2022 Serkai all rights reserved.
     </p>
   </footer>
-  <script src="./src/index.js"></script>
+  <script src="./src/javascript/index.js"></script>
 </body>
 </html>
