@@ -21,7 +21,7 @@ body {
   align-items: flex-start;
   width: 100%;
   background-color: #eee;
-  height: 95vh;
+  height: 85vh;
 }
 
 .headerLeft {
@@ -31,6 +31,8 @@ body {
   background-color: #eee;
   height: 100%;
   padding: 0 48px;
+  gap: 48px;
+  position: relative;
 }
 
 .headerLeftNavContainer {
@@ -156,6 +158,11 @@ body {
   border-radius: 30px;
 }
 
+.storiesContainer {
+  position: absolute;
+  bottom: -70px;
+}
+
 .stories {
   position: relative;
   display: flex;
@@ -164,7 +171,7 @@ body {
   background-color: #ccc;
   border: solid 5px white;
   border-radius: 5px;
-  width: 50%;
+  width: 30vw;
   height: 140px;
   gap: 24px;
   padding: 5px 5px 5px 24px;
