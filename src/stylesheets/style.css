@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #92f192;
+  background-color: white;
 }
 
 .h2 {
@@ -22,6 +22,7 @@ body {
   width: 100%;
   background-color: #eee;
   height: 85vh;
+  margin-bottom: 100px;
 }
 
 .headerLeft {
@@ -135,10 +136,10 @@ body {
   position: absolute;
   top: 110px;
   left: 0;
-  background-color: purple;
+  background-color: rgb(80, 1, 80);
   padding: 0 20px;
   border-radius: 100%;
-  transform: rotate(-45deg) !important;
+  transform: rotate(-30deg) !important;
   color: white;
 }
 
@@ -168,7 +169,7 @@ body {
   flex: 1;
   padding: 10px 0;
   border: none;
-  background-color: purple;
+  background-color: rgb(80, 1, 80);
   color: white;
   border-radius: 30px;
 }
@@ -195,11 +196,11 @@ body {
 .allStories {
   position: absolute;
   top: 50%;
-  right: -25px;
+  right: -15px;
   transform: translateY(-50%);
-  background-color: purple;
+  background-color: rgb(80, 1, 80);
   color: white;
-  padding: 13px 5px;
+  padding: 5px 8px;
   border: solid 3px white;
   font-size: 12px;
   border-radius: 100%;
@@ -272,6 +273,11 @@ body {
 }
 
 .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 5px #eee;
+  font-size: 24px;
   height: 50px;
   width: 50px;
   background-color: white;
