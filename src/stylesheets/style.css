@@ -96,6 +96,7 @@ body {
 }
 
 .headerLeftContent {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,15 +112,22 @@ body {
 }
 
 .mainHeading {
-  font-size: 46px;
+  font-size: 48px;
 }
 
 .rotated {
+  position: absolute;
+  top: 110px;
+  left: 0;
   background-color: purple;
-  padding: 0 16px;
+  padding: 0 20px;
   border-radius: 100%;
-  transform: rotateX('45') !important;
+  transform: rotate(-45deg) !important;
   color: white;
+}
+
+.shifted {
+  padding-left: 70px;
 }
 
 .searchContainer {
