@@ -628,6 +628,8 @@ body {
   padding: 16px;
   border: solid 1px #eee;
   background-color: white;
+  box-shadow: 0.5px 0.5px 7px rgb(80, 1, 80);
+
 }
 
 .testmonialsCardHeader {
@@ -641,10 +643,12 @@ body {
 .testmonialsIcon {
   font-size: 24px;
   padding: 8px;
-  color: white;
-  background-color: rgb(80, 1, 80);
+  color: rgb(80, 1, 80);
+  background-color: white;
   border-radius: 100%;
   text-align: center;
+  border: solid 1px #eee;
+  box-shadow: 1px 1px 3px rgb(80, 1, 80);
 }
 
 .main {
