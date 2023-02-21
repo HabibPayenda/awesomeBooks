@@ -548,6 +548,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 46px;
+  margin-bottom: 110px;
 }
 
 .testimonialsContainer {
@@ -566,10 +567,20 @@ body {
   width: 100%;
 }
 
+.testmonialsHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.testmonialsSubHeading {
+  font-size: 18px;
+}
+
 .testmonialsCardsContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 
