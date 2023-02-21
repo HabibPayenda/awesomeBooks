@@ -499,6 +499,32 @@ body {
   gap: 14px;
 }
 
+.planPrice {
+  padding: 5px 15px;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.planTitle {
+  font-size: 22px;
+}
+
+.planSubTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.planDetailsContainer {
+  padding: 8px;
+}
+
+.planDetails {
+  font-size: 14px;
+  text-align: center;
+}
+
 .planHeading {
   display: flex;
   flex-direction: column;
