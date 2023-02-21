@@ -548,7 +548,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 46px;
-  margin-bottom: 110px;
+  margin-bottom: 220px;
   background-color: #eee;
 }
 
@@ -560,6 +560,8 @@ body {
   width: 100%;
   gap: 36px;
   position: relative;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
 }
 
 .testimonialsHeader {
@@ -612,6 +614,8 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  position: absolute;
+  bottom: -60%;
 }
 
 .testmonialsCard {
