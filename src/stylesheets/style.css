@@ -543,6 +543,52 @@ body {
   justify-content: center;
 }
 
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 46px;
+}
+
+.testimonialsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 36px;
+}
+
+.testimonialsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.testmonialsCardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.testmonialsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+}
+
+.testmonialsCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
