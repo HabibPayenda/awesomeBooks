@@ -577,6 +577,34 @@ body {
   font-size: 18px;
 }
 
+.testmonialsNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  gap: 20px;
+}
+
+.testmonialsPrevBtn {
+  padding: 10px 25px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-align: right;
+}
+
+.testmonialsNextBtn {
+  padding: 10px 25px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: left;
+}
+
 .testmonialsCardsContainer {
   display: flex;
   align-items: center;
