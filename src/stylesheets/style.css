@@ -543,6 +543,113 @@ body {
   justify-content: center;
 }
 
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 46px;
+  margin-bottom: 220px;
+  background-color: #eee;
+}
+
+.testimonialsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 36px;
+  position: relative;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+}
+
+.testimonialsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.testmonialsHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.testmonialsSubHeading {
+  font-size: 18px;
+}
+
+.testmonialsNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  gap: 20px;
+}
+
+.testmonialsPrevBtn {
+  padding: 10px 25px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-align: right;
+}
+
+.testmonialsNextBtn {
+  padding: 10px 25px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: left;
+}
+
+.testmonialsCardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: -60%;
+}
+
+.testmonialsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  gap: 14px;
+  padding: 16px;
+  border: solid 1px #eee;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 7px rgb(80, 1, 80);
+}
+
+.testmonialsCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+}
+
+.testmonialsIcon {
+  font-size: 24px;
+  padding: 8px;
+  color: rgb(80, 1, 80);
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  border: solid 1px #eee;
+  box-shadow: 1px 1px 3px rgb(80, 1, 80);
+}
+
 .main {
   display: flex;
   flex-direction: column;
