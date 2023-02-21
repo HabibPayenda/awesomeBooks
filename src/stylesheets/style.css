@@ -454,6 +454,7 @@ body {
   justify-content: center;
   width: 100%;
   padding: 46px;
+  margin-bottom: 110px;
 }
 
 .plansMainContainer {
@@ -461,6 +462,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 36px;
+  width: 100%;
 }
 
 .plansHeadingContainer {
@@ -468,6 +471,31 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.plansHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.plansSubHeading {
+  font-size: 18px;
+}
+
+.plansContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.planCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
 }
 
 .main {
