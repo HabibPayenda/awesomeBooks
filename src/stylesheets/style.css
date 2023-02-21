@@ -447,6 +447,102 @@ body {
   font-weight: bold;
 }
 
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 46px;
+  margin-bottom: 110px;
+}
+
+.plansMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  width: 100%;
+}
+
+.plansHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.plansHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.plansSubHeading {
+  font-size: 18px;
+}
+
+.plansContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 18%;
+}
+
+.planCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border: solid 1px #eee;
+  padding: 24px;
+  box-shadow: 1px 1px 7px rgb(80, 1, 80);
+}
+
+.planPrice {
+  padding: 5px 15px;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.planTitle {
+  font-size: 22px;
+}
+
+.planSubTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.planDetailsContainer {
+  padding: 8px;
+}
+
+.planDetails {
+  font-size: 14px;
+  text-align: center;
+}
+
+.planBtn {
+  padding: 5px 10px;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.planHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .main {
   display: flex;
   flex-direction: column;
