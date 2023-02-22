@@ -733,7 +733,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 46px;
+  padding: 100px 46px;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  margin-bottom: 110px;
 }
 
 .newsletterContainer {
