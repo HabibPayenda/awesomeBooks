@@ -728,6 +728,36 @@ body {
   border-radius: 5px;
 }
 
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 46px;
+}
+
+.newsletterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 46px;
+  width: 100%;
+}
+
+.newsletterHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.newsLetterEmailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
 .main {
   display: flex;
   flex-direction: column;
