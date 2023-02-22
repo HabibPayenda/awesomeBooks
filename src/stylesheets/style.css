@@ -769,17 +769,25 @@ body {
   justify-content: center;
   background-color: white;
   width: 70%;
-  padding: 10px 25px;
+  padding: 5px 5px 5px 25px;
   border-radius: 25px;
   gap: 12px;
 }
 
 .newsLetterEmailInput {
   flex: 3;
+  border: none;
+  outline: none;
 }
 
 .newsLetterBtn {
   flex: 1;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  height: 100%;
 }
 
 .main {
