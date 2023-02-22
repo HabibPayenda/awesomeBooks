@@ -656,6 +656,7 @@ body {
   justify-content: center;
   width: 100%;
   padding: 46px;
+  margin-bottom: 110px;
 }
 
 .mobileAppSectionContainer {
@@ -692,6 +693,17 @@ body {
   align-items: center;
   justify-content: center;
   gap: 24px;
+}
+
+.mobileAppSectionHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+  width: 80%;
+}
+
+.mobileAppSectionDetailsText {
+  font-size: 18px;
 }
 
 .main {
