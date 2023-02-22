@@ -940,9 +940,25 @@ body {
 }
 
 .footerBrandContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
   flex: 1;
 }
 
 .footerLinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
   flex: 3;
+}
+
+.footerLinksSubContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
