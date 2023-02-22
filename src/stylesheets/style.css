@@ -668,6 +668,15 @@ body {
 }
 
 .mobileAppSectionImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/mobile.png);
+  width: 80%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 340px;
   flex: 1;
 }
 
