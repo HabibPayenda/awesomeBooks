@@ -930,13 +930,15 @@ body {
   justify-content: center;
   width: 100%;
   padding: 46px;
+  height: 320px;
 }
 
 .footerContainer {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 46px;
+  height: 100%;
 }
 
 .footerBrandContainer {
@@ -944,21 +946,48 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 24px;
+  gap: 12px;
   flex: 1;
 }
 
 .footerLinksContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 24px;
   flex: 3;
+  height: 100%;
 }
 
 .footerLinksSubContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.footerLinksHeading {
+  color: rgb(80, 1, 80);
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #aaa;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.footerLogo {
+  color: rgb(80, 1, 80);
+  font-size: 24px;
+  text-shadow: 1px 1px 3px #aaa;
 }
