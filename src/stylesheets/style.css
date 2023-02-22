@@ -763,6 +763,16 @@ body {
   flex: 1;
 }
 
+.newsLetterEmailBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 70%;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
