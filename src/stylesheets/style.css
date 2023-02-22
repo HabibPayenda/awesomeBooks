@@ -663,6 +663,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  gap: 46px;
 }
 
 .mobileAppSectionImageContainer {
@@ -670,7 +671,27 @@ body {
 }
 
 .mobileAppSectionDetailsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
   flex: 1;
+}
+
+.mobileAppSectionHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+
+.mobileAppSectionBtnsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 .main {
