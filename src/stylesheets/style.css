@@ -650,6 +650,84 @@ body {
   box-shadow: 1px 1px 3px rgb(80, 1, 80);
 }
 
+.mobileAppSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 46px;
+  margin-bottom: 110px;
+}
+
+.mobileAppSectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 46px;
+}
+
+.mobileAppSectionImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/mobile.png);
+  width: 80%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 340px;
+  flex: 1;
+}
+
+.mobileAppSectionDetailsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+}
+
+.mobileAppSectionHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+
+.mobileAppSectionBtnsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.mobileAppSectionHeading {
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+  width: 80%;
+}
+
+.mobileAppSectionDetailsText {
+  font-size: 18px;
+}
+
+.mobileBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 6px 12px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
