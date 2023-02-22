@@ -31,7 +31,7 @@ body {
   flex: 2;
   background-color: #eee;
   height: 100%;
-  padding: 0 48px;
+  padding: 12px 48px 0 48px;
   gap: 48px;
   position: relative;
 }
@@ -44,11 +44,10 @@ body {
 }
 
 .logo {
-  font-family: 'Lato', sans-serif;
+  color: rgb(80, 1, 80);
+  font-size: 36px;
+  text-shadow: 1px 1px 3px #aaa;
   text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 34px;
 }
 
 .navbar {
@@ -926,16 +925,80 @@ body {
 
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  outline: solid 3px goldenrod;
-  background-color: #a4f560;
-  color: black;
-  width: 95%;
-  margin: 10px 20px;
-  border-radius: 10px;
+  width: 100%;
+  padding: 46px 46px 12px 46px;
+  height: 320px;
 }
 
-.footerText {
-  margin: 15px;
+.footerContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 46px;
+  height: 100%;
+}
+
+.footerBrandContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.footerLinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  flex: 3;
+  height: 100%;
+}
+
+.footerLinksSubContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.footerLinksHeading {
+  color: rgb(80, 1, 80);
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #aaa;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.footerLogo {
+  color: rgb(80, 1, 80);
+  font-size: 24px;
+  text-shadow: 1px 1px 3px #aaa;
+}
+
+.copyright {
+  color: rgb(80, 1, 80);
+  font-size: 12px;
+  text-shadow: 1px 1px 3px #aaa;
+}
+
+.footerLinkedLink {
+  text-decoration: none;
+  font-size: 16px;
 }
