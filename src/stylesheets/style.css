@@ -771,6 +771,15 @@ body {
   width: 70%;
   padding: 10px 25px;
   border-radius: 25px;
+  gap: 12px;
+}
+
+.newsLetterEmailInput {
+  flex: 3;
+}
+
+.newsLetterBtn {
+  flex: 1;
 }
 
 .main {
