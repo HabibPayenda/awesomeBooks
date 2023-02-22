@@ -650,6 +650,29 @@ body {
   box-shadow: 1px 1px 3px rgb(80, 1, 80);
 }
 
+.mobileAppSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 46px;
+}
+
+.mobileAppSectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mobileAppSectionImageContainer {
+  flex: 1;
+}
+
+.mobileAppSectionDetailsContainer {
+  flex: 1;
+}
+
 .main {
   display: flex;
   flex-direction: column;
