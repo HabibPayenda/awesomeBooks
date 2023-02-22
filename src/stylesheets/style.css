@@ -926,10 +926,11 @@ body {
 
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 46px;
+  padding: 46px 46px 12px 46px;
   height: 320px;
 }
 
@@ -990,4 +991,15 @@ body {
   color: rgb(80, 1, 80);
   font-size: 24px;
   text-shadow: 1px 1px 3px #aaa;
+}
+
+.copyright {
+  color: rgb(80, 1, 80);
+  font-size: 12px;
+  text-shadow: 1px 1px 3px #aaa;
+}
+
+.footerLinkedLink {
+  text-decoration: none;
+  font-size: 16px;
 }
