@@ -728,6 +728,68 @@ body {
   border-radius: 5px;
 }
 
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 100px 46px;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  margin-bottom: 110px;
+}
+
+.newsletterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 46px;
+  width: 100%;
+}
+
+.newsletterHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.newsLetterEmailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.newsLetterEmailBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 70%;
+  padding: 5px 5px 5px 25px;
+  border-radius: 25px;
+  gap: 12px;
+}
+
+.newsLetterEmailInput {
+  flex: 3;
+  border: none;
+  outline: none;
+}
+
+.newsLetterBtn {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(80, 1, 80);
+  color: white;
+  height: 100%;
+}
+
 .main {
   display: flex;
   flex-direction: column;
