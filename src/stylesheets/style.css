@@ -928,14 +928,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: solid 3px goldenrod;
-  background-color: #a4f560;
-  color: black;
-  width: 95%;
-  margin: 10px 20px;
-  border-radius: 10px;
+  width: 100%;
+  padding: 46px;
 }
 
-.footerText {
-  margin: 15px;
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 46px;
+}
+
+.footerBrandContainer {
+  flex: 1;
+}
+
+.footerLinksContainer {
+  flex: 3;
 }
