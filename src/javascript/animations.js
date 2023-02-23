@@ -14,7 +14,7 @@ const slider = () => {
     i = 0;
   }
   headerImage.src = images[i];
-  i++;
+  i += 1;
   setTimeout(() => {
     slider();
   }, 5000);
