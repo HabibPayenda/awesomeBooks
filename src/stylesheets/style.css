@@ -99,7 +99,7 @@ body {
   height: 2px;
   background-color: rgb(80, 1, 80);
   box-shadow: 1px 1px 1px #aaa;
-  animation: moveRight 1s ease-in-out;
+  opacity: 0;
 }
 
 .navItem::after {
@@ -116,7 +116,12 @@ body {
 }
 
 .navItem:hover::after {
-  animation: moveLeft 1s ease-in-out;
+  animation: moveLeft 0.3s ease-in-out;
+  opacity: 100%;
+}
+
+.navItem:hover::before {
+  animation: moveRight 0.3s ease-in-out;
   opacity: 100%;
 }
 
