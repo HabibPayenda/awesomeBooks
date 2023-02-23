@@ -90,7 +90,7 @@ body {
   display: block;
   content: '';
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   width: 80%;
   height: 2px;
@@ -103,7 +103,7 @@ body {
   display: block;
   content: '';
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   width: 80%;
   height: 2px;
@@ -159,8 +159,8 @@ body {
 }
 
 .headerLeftImgTag {
-  height: 100%; 
-  animation: zoom 5s ease-in-out infinite; 
+  height: 100%;
+  animation: zoom 5s ease-in-out infinite;
 }
 
 @keyframes zoom {
