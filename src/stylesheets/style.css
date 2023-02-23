@@ -112,6 +112,16 @@ body {
   box-shadow: 1px 1px 1px #aaa;
 }
 
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .headerLeftImg {
   display: flex;
   align-items: flex-start;
