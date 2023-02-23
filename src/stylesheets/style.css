@@ -110,11 +110,12 @@ body {
   height: 2px;
   background-color: rgb(80, 1, 80);
   box-shadow: 1px 1px 1px #aaa;
+  animation: moveLeft 1s ease-in-out;
 }
 
 @keyframes moveLeft {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
 
   100% {
