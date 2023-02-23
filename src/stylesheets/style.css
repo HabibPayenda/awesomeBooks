@@ -92,8 +92,20 @@ body {
   display: block;
   content: '';
   position: absolute;
-  top: 0;
+  top: 5px;
   left: 0;
+  width: 80%;
+  height: 2px;
+  background-color: rgb(80, 1, 80);
+  box-shadow: 1px 1px 1px #aaa;
+}
+
+.navItem::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  right: 0;
   width: 80%;
   height: 2px;
   background-color: rgb(80, 1, 80);
