@@ -76,25 +76,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   height: 100%;
   padding: 0.0001px 10px;
   transition: all 0.3s;
   width: 100px;
-}
-
-.navItem:hover {
-  background-color: black;
-  outline: solid 2px goldenrod;
-  transform: translateX(10px);
-}
-
-.navItem:last-child:hover {
-  transform: translateX(-10px);
-}
-
-.navItem:hover a {
-  color: goldenrod;
 }
 
 .headerLeftImg {
