@@ -80,11 +80,24 @@ body {
   padding: 0.0001px 10px;
   transition: all 0.3s;
   width: 100px;
+  position: relative;
 }
 
 .navItem a {
   color: rgb(80, 1, 80);
   text-shadow: 1px 1px 1px #aaa;
+}
+
+.navItem::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  background-color: rgb(80, 1, 80);
+  box-shadow: 1px 1px 1px #aaa;
 }
 
 .headerLeftImg {
