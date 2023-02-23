@@ -82,6 +82,11 @@ body {
   width: 100px;
 }
 
+.navItem a {
+  color: rgb(80, 1, 80);
+  text-shadow: 1px 1px 1px #aaa;
+}
+
 .headerLeftImg {
   display: flex;
   align-items: flex-start;
