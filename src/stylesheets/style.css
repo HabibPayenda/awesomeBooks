@@ -98,9 +98,10 @@ body {
 }
 
 .headerLeftImg {
-  background-image: url(../images/students.png);
-  background-size: cover;
-  background-position: right;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
   height: 80%;
   width: 360px;
   position: absolute;
@@ -109,6 +110,10 @@ body {
   border: solid 5px white;
   border-radius: 5px;
   z-index: 1;
+}
+
+.headerLeftImgTag {
+  height: 100%;  
 }
 
 .headerLeftContent {
