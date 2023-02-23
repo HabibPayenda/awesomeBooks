@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/stylesheets/style.css">
   <script src="https://kit.fontawesome.com/105bcdf182.js" crossorigin="anonymous"></script>
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   <title>Awesome Books</title>
 </head>
 <body>
@@ -15,19 +16,27 @@
         <a href="#" class="logo">Awesome Books</a>
         <nav class="navbar">
           <ul class="navbarItemContainer">
-            <li class="navItem">
-              <a id="listMenu" href="#">List</a>
-            </li>
-            <li class="navItem">
-              <a id="addNewMenu" href="#">Add New</a>
-            </li>
-            <li class="navItem">
-              <a id="contactMenu" href="#">Contact</a>
-            </li>
+            <a id="listMenu" href="#">
+              <li class="navItem">
+                List
+              </li>
+            </a>
+            <a id="addNewMenu" href="#">
+              <li class="navItem">
+                Add New
+              </li>
+            </a>
+            <a id="contactMenu" href="#">
+              <li class="navItem">
+                Contact
+              </li>
+            </a>
           </ul>
         </nav>
       </div>
-      <div class="headerLeftImg"></div>
+      <div class="headerLeftImg">
+        <img src="./src/images/students1.png" id="headerImage" alt="" class="headerLeftImgTag">
+      </div>
       <div class="headerLeftContent">
         <p class="exploreText">Explore Your Favarite Books 📚</p>
         <h1 class="mainHeading">Get Your New <span class="rotated">B</span> <span class="shifted">ook With The</span> Best Price</h1>
@@ -361,6 +370,7 @@
     </div>
     <p class="copyright">Made with love by <a href="#" class="footerLinkedLink">Habib Payenda</a> </p>
   </footer>
+  <script src="./src/javascript/animations.js"></script>
   <script src="./src/javascript/index.js"></script>
 </body>
 </html>
