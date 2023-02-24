@@ -22,11 +22,9 @@ const slider = () => {
 
 slider();
 
-
 const logo = document.getElementById('logo');
 const navlinks = document.querySelectorAll('nav a');
 const headerRight = document.getElementById('headerRight');
-const headerLeft = document.getElementById('headerLeft');
 const exploreText = document.getElementById('exploreText');
 const mainHeading = document.getElementById('mainHeading');
 const seachContainer = document.getElementById('searchContainer');
@@ -35,20 +33,22 @@ const accountContainer = document.getElementById('accountContainer');
 const graphics = document.getElementById('graphics');
 const storiesContainer = document.getElementById('storiesContainer');
 
+
+function revealAnim() {
+  const TLFADE = gsap.timeline();
+
+  TLFADE
+    .from(logo, { autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2 }, '-=0.20')
+    .from(navlinks, { autoAlpha: 0, duration: 0.3, y: -50, delay: 0., stagger: 0.1 }, '-=0.20')
+    .from(exploreText, { autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2 }, '-=0.20')
+    .from(mainHeading, { autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2 }, '-=0.20')
+    .from(seachContainer, { autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2 }, '-=0.20')
+    .from(storiesContainer, { autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2 }, '-=0.20')
+    .from(headerLeftImg, { autoAlpha: 0, duration: 0.5, x: -200 })
+    .to(headerRight, { duration: 0.3, backgroundColor: 'purple' })
+    .from(accountContainer, { autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2 }, '-=0.20')
+    .from(graphics, { autoAlpha: 0, duration: 0.3, x: -100, rotation: -45, delay: 0.2 }, '-=0.20');
+};
+
 window.addEventListener('load', revealAnim);
 
-function revealAnim () {
-  const TLFADE = gsap.timeline();
-  
-  TLFADE
-  .from(logo, {autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2}, '-=0.20')
-  .from(navlinks, {autoAlpha: 0, duration: 0.3, y: -50, delay: 0., stagger: 0.1}, '-=0.20')
-  .from(exploreText, {autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2}, '-=0.20')
-  .from(mainHeading, {autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2}, '-=0.20')
-  .from(seachContainer, {autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2}, '-=0.20')
-  .from(storiesContainer, {autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2}, '-=0.20')
-  .from(headerLeftImg, {autoAlpha: 0, duration: 0.5, x: -200})
-  .to(headerRight, {duration: 0.3, backgroundColor: 'purple'})
-  .from(accountContainer, {autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2}, '-=0.20')
-  .from(graphics, {autoAlpha: 0, duration: 0.3, x: -100, rotation: -45, delay: 0.2}, '-=0.20')
-}
