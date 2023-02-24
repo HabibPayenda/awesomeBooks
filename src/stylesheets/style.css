@@ -87,6 +87,10 @@ body {
   text-shadow: 1px 1px 1px #aaa;
 }
 
+nav a {
+  visibility: hidden;
+}
+
 .navItem::before {
   display: block;
   content: '';
@@ -205,10 +209,12 @@ body {
   align-self: flex-start;
   font-size: 18px;
   font-weight: bold;
+  visibility: hidden;
 }
 
 .mainHeading {
   font-size: 48px;
+  visibility: hidden;
 }
 
 .rotated {
