@@ -33,6 +33,7 @@ const seachContainer = document.getElementById('searchContainer');
 const headerLeftImg = document.getElementById('headerLeftImg');
 const accountContainer = document.getElementById('accountContainer');
 const graphics = document.getElementById('graphics');
+const storiesContainer = document.getElementById('storiesContainer');
 
 window.addEventListener('load', revealAnim);
 
@@ -40,13 +41,12 @@ function revealAnim () {
   const TLFADE = gsap.timeline();
 
   TLFADE
-  .from(logo, {autoAlpha: 0, duration: 0.5, y: -50, delay: 0.2}, '-=0.25')
-  .from(navlinks, {autoAlpha: 0, duration: 0.5, y: -50, delay: 0.2}, '-=0.25')
-  .from(exploreText, {autoAlpha: 0, duration: 0.5, y: -50, delay: 0.2}, '-=0.25')
-  .from(mainHeading, {autoAlpha: 0, duration: 0.5, y: -50, delay: 0.2}, '-=0.25')
-  .from(seachContainer, {autoAlpha: 0, duration: 0.75, x: -100, delay: 0.2}, '-=0.25')
-  .from(headerLeftImg, {autoAlpha: 0, duration: 1, x: -200})
-  .to(headerRight, {duration: 0.5, backgroundColor: 'purple'})
-  .from(accountContainer, {autoAlpha: 0, duration: 0.75, x: -100, delay: 0.2}, '-=0.25')
-  .from(graphics, {autoAlpha: 0, duration: 0.75, x: -100, rotation: -45, delay: 0.2}, '-=0.25')
+  .from(exploreText, {autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2}, '-=0.25')
+  .from(mainHeading, {autoAlpha: 0, duration: 0.3, y: -50, delay: 0.2}, '-=0.25')
+  .from(seachContainer, {autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2}, '-=0.25')
+  .from(storiesContainer, {autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2}, '-=0.25')
+  .from(headerLeftImg, {autoAlpha: 0, duration: 0.5, x: -200})
+  .to(headerRight, {duration: 0.3, backgroundColor: 'purple'})
+  .from(accountContainer, {autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2}, '-=0.25')
+  .from(graphics, {autoAlpha: 0, duration: 0.3, x: -100, rotation: -45, delay: 0.2}, '-=0.25')
 }
