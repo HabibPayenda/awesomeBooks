@@ -57,6 +57,10 @@ body {
   align-items: center;
 }
 
+nav a {
+  visibility: hidden;
+}
+
 .navbar a {
   text-decoration: none;
   color: black;
@@ -85,10 +89,6 @@ body {
   overflow: hidden;
   color: rgb(80, 1, 80);
   text-shadow: 1px 1px 1px #aaa;
-}
-
-nav a {
-  visibility: hidden;
 }
 
 .navItem::before {
