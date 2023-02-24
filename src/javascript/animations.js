@@ -43,5 +43,6 @@ function revealAnim () {
   .from(exploreText, {autoAlpha: 0, duration: 0.5, y: -50, delay: 0.2}, '-=0.25')
   .from(mainHeading, {autoAlpha: 0, duration: 0.5, y: -50, delay: 0.2}, '-=0.25')
   .from(seachContainer, {autoAlpha: 0, duration: 0.75, x: -100, delay: 0.2}, '-=0.25')
-  .from(headerLeftImg, {autoAlpha: 0, duration: 1, x: -200}, '-=0.25')
+  .from(headerLeftImg, {autoAlpha: 0, duration: 1, x: -200})
+  .to(headerRight, {duration: 0.5, backgroundColor: 'purple'})
 }
