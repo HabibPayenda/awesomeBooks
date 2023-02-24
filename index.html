@@ -10,10 +10,10 @@
   <title>Awesome Books</title>
 </head>
 <body>
-  <header class="header">
-    <div class="headerLeft">
+  <header id="header" class="header">
+    <div id="headerLeft" class="headerLeft">
       <div class="headerLeftNavContainer">
-        <a href="#" class="logo">Awesome Books</a>
+        <a href="#" id="logo" class="logo">Awesome Books</a>
         <nav class="navbar">
           <ul class="navbarItemContainer">
             <a id="listMenu" href="#">
@@ -34,18 +34,18 @@
           </ul>
         </nav>
       </div>
-      <div class="headerLeftImg">
+      <div id="headerLeftImg" class="headerLeftImg">
         <img src="./src/images/students1.png" id="headerImage" alt="" class="headerLeftImgTag">
       </div>
       <div class="headerLeftContent">
-        <p class="exploreText">Explore Your Favarite Books 📚</p>
-        <h1 class="mainHeading">Get Your New <span class="rotated">B</span> <span class="shifted">ook With The</span> Best Price</h1>
+        <p id="exploreText" class="exploreText">Explore Your Favarite Books 📚</p>
+        <h1 id="mainHeading" class="mainHeading">Get Your New <span class="rotated">B</span> <span class="shifted">ook With The</span> Best Price</h1>
       </div>
-      <div class="searchContainer">
+      <div id="searchContainer" class="searchContainer">
         <input type="text" placeholder="Search books, authors, categories..." class="mainSearch">
         <button type="button" class="searchBtn">Search</button>
       </div>
-      <div class="storiesContainer">
+      <div id="storiesContainer" class="storiesContainer">
         <div class="stories">
           <div class="allStories">
             <i class="fa-solid fa-arrow-right"></i>
@@ -56,15 +56,15 @@
         </div>
       </div>
     </div>
-    <div class="headerRight">
-      <div class="accountContainer">
+    <div id="headerRight" class="headerRight">
+      <div id="accountContainer" class="accountContainer">
         <ul class="accountLinks">
           <i class="fa-solid fa-bell"></i>
           <li class="accountLink">Sing In</li>
           <li class="accountLink">Create Account</li>
         </ul>
       </div>
-      <div class="graphics">
+      <div id="graphics" class="graphics">
         <div class="iconsContainer">
           <div class="iconOne icon">😍</div>
           <div class="iconTwo icon">📚</div>
@@ -370,6 +370,7 @@
     </div>
     <p class="copyright">Made with love by <a href="#" class="footerLinkedLink">Habib Payenda</a> </p>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
   <script src="./src/javascript/animations.js"></script>
   <script src="./src/javascript/index.js"></script>
 </body>
