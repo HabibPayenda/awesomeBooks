@@ -351,6 +351,7 @@ nav a {
   border-radius: 100%;
   left: 0;
   border: solid 50px rgb(80, 1, 80);
+  visibility: hidden;
 }
 
 .iconsContainer {

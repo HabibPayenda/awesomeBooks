@@ -32,6 +32,7 @@ const mainHeading = document.getElementById('mainHeading');
 const seachContainer = document.getElementById('searchContainer');
 const headerLeftImg = document.getElementById('headerLeftImg');
 const accountContainer = document.getElementById('accountContainer');
+const graphics = document.getElementById('graphics');
 
 window.addEventListener('load', revealAnim);
 
@@ -47,4 +48,5 @@ function revealAnim () {
   .from(headerLeftImg, {autoAlpha: 0, duration: 1, x: -200})
   .to(headerRight, {duration: 0.5, backgroundColor: 'purple'})
   .from(accountContainer, {autoAlpha: 0, duration: 0.75, x: -100, delay: 0.2}, '-=0.25')
+  .from(graphics, {autoAlpha: 0, duration: 0.75, x: -100, rotation: -45, delay: 0.2}, '-=0.25')
 }
