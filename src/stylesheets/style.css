@@ -263,6 +263,7 @@ nav a {
 .storiesContainer {
   position: absolute;
   bottom: -70px;
+  visibility: hidden;
 }
 
 .stories {
