@@ -21,3 +21,7 @@ const slider = () => {
 };
 
 slider();
+
+
+const logo = document.getElementById('logo');
+const navlinks = document.querySelectorAll('nav a');
