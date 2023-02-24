@@ -155,8 +155,9 @@ body {
   bottom: 0;
   border: solid 5px white;
   border-radius: 5px;
-  z-index: 1;
+  z-index: 1 !important;
   background-color: #eee;
+  visibility: hidden;
 }
 
 .headerLeftImgTag {
