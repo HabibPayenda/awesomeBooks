@@ -25,3 +25,17 @@ slider();
 
 const logo = document.getElementById('logo');
 const navlinks = document.querySelectorAll('nav a');
+const headerRight = document.getElementById('headerRight');
+const headerLeft = document.getElementById('headerLeft');
+const exploreText = document.getElementById('exploreText');
+const mainHeading = document.getElementById('mainHeading');
+const seachContainer = document.getElementById('searchContainer');
+
+window.addEventListener('load', revealAnim);
+
+function revealAnim () {
+  const TLFADE = gsap.timeline();
+
+  TLFADE
+  .from(logo, {autoAlpha: 0, duration: 1, y: -50, delay: 0.2})
+}
