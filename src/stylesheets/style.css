@@ -242,6 +242,7 @@ nav a {
   width: 80%;
   align-self: center;
   z-index: 1;
+  visibility: hidden;
 }
 
 .mainSearch {
