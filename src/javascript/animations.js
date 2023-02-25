@@ -32,6 +32,7 @@ const headerLeftImg = document.getElementById('headerLeftImg');
 const accountContainer = document.getElementById('accountContainer');
 const graphics = document.getElementById('graphics');
 const storiesContainer = document.getElementById('storiesContainer');
+const stroyItem = document.querySelectorAll('.stroyItem');
 
 function revealAnim() {
   // eslint-disable-next-line no-undef
@@ -52,15 +53,18 @@ function revealAnim() {
     }, '-=0.20')
     .from(seachContainer, {
       autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2,
-    }, '-=0.20')
+    }, '-=0.4')
     .from(storiesContainer, {
       autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2,
-    }, '-=0.20')
-    .from(headerLeftImg, { autoAlpha: 0, duration: 0.5, x: -200 })
+    }, '-=0.4')
+    .from(stroyItem, {
+      autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2, stagger: 0.1,
+    }, '-=0.4')
+    .from(headerLeftImg, { autoAlpha: 0, duration: 0.75, x: -200 })
     .to(headerRight, { duration: 0.3, backgroundColor: 'purple' })
     .from(accountContainer, {
       autoAlpha: 0, duration: 0.3, x: -100, delay: 0.2,
-    }, '-=0.20')
+    }, '-=0.4')
     .from(graphics, {
       autoAlpha: 0, duration: 0.3, x: -100, rotation: -45, delay: 0.2,
     }, '-=0.20');

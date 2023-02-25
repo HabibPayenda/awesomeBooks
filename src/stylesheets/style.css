@@ -303,6 +303,7 @@ nav a {
   background-repeat: no-repeat;
   padding: 5px;
   border-radius: 8px;
+  visibility: hidden;
 }
 
 .headerRight {
