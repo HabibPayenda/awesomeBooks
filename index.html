@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <script src="https://kit.fontawesome.com/105bcdf182.js" crossorigin="anonymous"></script>
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   <title>Awesome Books</title>
 </head>
+
 <body>
   <header id="header" class="header">
     <div id="headerLeft" class="headerLeft">
@@ -39,7 +42,8 @@
       </div>
       <div class="headerLeftContent">
         <p id="exploreText" class="exploreText">Explore Your Favarite Books 📚</p>
-        <h1 id="mainHeading" class="mainHeading">Get Your New <span class="rotated">B</span> <span class="shifted">ook With The</span> Best Price</h1>
+        <h1 id="mainHeading" class="mainHeading">Get Your New <span class="rotated">B</span> <span class="shifted">ook
+            With The</span> Best Price</h1>
       </div>
       <div id="searchContainer" class="searchContainer">
         <input type="text" placeholder="Search books, authors, categories..." class="mainSearch">
@@ -73,7 +77,7 @@
       </div>
     </div>
   </header>
-  
+
   <section class="categories">
     <h2 class="categoriesHeading">
       Explore Books By Categories
@@ -113,37 +117,56 @@
         <p class="ourProducts">Our Products</p>
       </div>
       <div class="topSellsCardsContainer">
-        <div class="topSellsCard">
-          <div class="priceContainer">
-            <p class="price">💰 4.3</p>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="topSellsCard">
+                <div class="priceContainer">
+                  <p class="price">💰 4.3</p>
+                </div>
+                <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="topSellsCard">
+                <div class="priceContainer">
+                  <p class="price">💰 4.8</p>
+                </div>
+                <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="topSellsCard">
+                <div class="priceContainer">
+                  <p class="price">💰 3.2</p>
+                </div>
+                <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="topSellsCard">
+                <div class="priceContainer">
+                  <p class="price">💰 5.0</p>
+                </div>
+                <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
+              </div>
+            </div>
+            <div class="swiper-slide">
+
+              <div class="topSellsCard">
+                <div class="priceContainer">
+                  <p class="price">💰 3.5</p>
+                </div>
+                <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
+              </div>
+            </div>
           </div>
-          <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
-        </div>
-        <div class="topSellsCard">
-          <div class="priceContainer">
-            <p class="price">💰 4.8</p>
-          </div>
-          <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
-        </div>
-        <div class="topSellsCard">
-          <div class="priceContainer">
-            <p class="price">💰 3.2</p>
-          </div>
-          <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
-        </div>
-        <div class="topSellsCard">
-          <div class="priceContainer">
-            <p class="price">💰 5.0</p>
-          </div>
-          <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
-        </div>
-        <div class="topSellsCard">
-          <div class="priceContainer">
-            <p class="price">💰 3.5</p>
-          </div>
-          <img src="./src/images/book.png" alt="book image" class="topSellsCardImage">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
+
       <div class="topSellsTotalPriceContainer">
         <p class="topSellsTotalPriceEmoji">😃</p>
         <p class="topSellsTotalPriceValue">$ 150.00</p>
@@ -170,7 +193,9 @@
           </div>
           <div class="planDetailsContainer">
             <p class="planDetails">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et veniam! Iusto, minus eos nam aut non reiciendis eum, in placeat esse dolorem, pariatur laboriosam blanditiis maxime quibusdam necessitatibus eligendi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et veniam! Iusto, minus eos nam aut non
+              reiciendis eum, in placeat esse dolorem, pariatur laboriosam blanditiis maxime quibusdam necessitatibus
+              eligendi!
             </p>
           </div>
           <button type="button" class="planBtn">Buy Now</button>
@@ -183,7 +208,9 @@
           </div>
           <div class="planDetailsContainer">
             <p class="planDetails">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et veniam! Iusto, minus eos nam aut non reiciendis eum, in placeat esse dolorem, pariatur laboriosam blanditiis maxime quibusdam necessitatibus eligendi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et veniam! Iusto, minus eos nam aut non
+              reiciendis eum, in placeat esse dolorem, pariatur laboriosam blanditiis maxime quibusdam necessitatibus
+              eligendi!
             </p>
           </div>
           <button type="button" class="planBtn">Buy Now</button>
@@ -196,7 +223,9 @@
           </div>
           <div class="planDetailsContainer">
             <p class="planDetails">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et veniam! Iusto, minus eos nam aut non reiciendis eum, in placeat esse dolorem, pariatur laboriosam blanditiis maxime quibusdam necessitatibus eligendi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et veniam! Iusto, minus eos nam aut non
+              reiciendis eum, in placeat esse dolorem, pariatur laboriosam blanditiis maxime quibusdam necessitatibus
+              eligendi!
             </p>
           </div>
           <button type="button" class="planBtn">Buy Now</button>
@@ -230,11 +259,11 @@
               </p>
             </div>
           </div>
-            <div class="testmonialsCardDetailsContainer">
-              <p class="testmonialsCardDetails">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est temporibus nisi perferendis facilis.
-              </p>
-            </div>
+          <div class="testmonialsCardDetailsContainer">
+            <p class="testmonialsCardDetails">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est temporibus nisi perferendis facilis.
+            </p>
+          </div>
         </div>
         <div class="testmonialsCard">
           <div class="testmonialsCardHeader">
@@ -246,11 +275,11 @@
               </p>
             </div>
           </div>
-            <div class="testmonialsCardDetailsContainer">
-              <p class="testmonialsCardDetails">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est temporibus nisi perferendis facilis.
-              </p>
-            </div>
+          <div class="testmonialsCardDetailsContainer">
+            <p class="testmonialsCardDetails">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est temporibus nisi perferendis facilis.
+            </p>
+          </div>
         </div>
         <div class="testmonialsCard">
           <div class="testmonialsCardHeader">
@@ -262,11 +291,11 @@
               </p>
             </div>
           </div>
-            <div class="testmonialsCardDetailsContainer">
-              <p class="testmonialsCardDetails">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est temporibus nisi perferendis facilis.
-              </p>
-            </div>
+          <div class="testmonialsCardDetailsContainer">
+            <p class="testmonialsCardDetails">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est temporibus nisi perferendis facilis.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -284,7 +313,8 @@
         <div class="mobileAppSectionHeadingContainer">
           <h2 class="mobileAppSectionHeading">Available For Your Smartphone.</h2>
           <p class="mobileAppSectionDetailsText">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quibusdam molestias nemo rem in animi vero, corrupti illo itaque vitae optio quos nostrum quisquam? Consectetur debitis eos fugiat inventore odit.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quibusdam molestias nemo rem in animi vero,
+            corrupti illo itaque vitae optio quos nostrum quisquam? Consectetur debitis eos fugiat inventore odit.
           </p>
         </div>
         <div class="mobileAppSectionBtnsContainer">
@@ -311,15 +341,15 @@
         Subscribe Our Newsletter <br />
         Newest Books Updates
       </div>
-        <div class="newsLetterEmailContainer">
-          <div class="newsLetterEmailBox">
-            <input type="text" placeholder="Enter Your Email" class="newsLetterEmailInput">
-            <button type="button" class="newsLetterBtn">Subscribe</button>
-          </div>
+      <div class="newsLetterEmailContainer">
+        <div class="newsLetterEmailBox">
+          <input type="text" placeholder="Enter Your Email" class="newsLetterEmailInput">
+          <button type="button" class="newsLetterBtn">Subscribe</button>
         </div>
+      </div>
     </div>
   </section>
-  
+
   <!-- <main id="main" class="main">
     <section id="list" class="list">
         <h2 class="h2"> linters fixing</h2>
@@ -329,7 +359,8 @@
     <div class="footerContainer">
       <div class="footerBrandContainer">
         <h2 class="footerLogo">Awesome Books</h2>
-        <p class="footerBrandDetails">Lorem ipsum dolor sit amet Nostrum deleniti rem itaque reprehenderit quo repellat fuga quisquam delectus impedit!</p>
+        <p class="footerBrandDetails">Lorem ipsum dolor sit amet Nostrum deleniti rem itaque reprehenderit quo repellat
+          fuga quisquam delectus impedit!</p>
       </div>
       <div class="footerLinksContainer">
         <div class="footerLinksSubContainer">
@@ -348,22 +379,22 @@
           <h4 class="footerLinksHeading">
             Developer Links
           </h4>
-            <div class="footerLinks">
-              <a href="#" class="footerLink">GitHub</a>
-              <a href="#" class="footerLink">LinkedIn</a>
-              <a href="#" class="footerLink">AngelList</a>
-              <a href="#" class="footerLink">Medium</a>
+          <div class="footerLinks">
+            <a href="#" class="footerLink">GitHub</a>
+            <a href="#" class="footerLink">LinkedIn</a>
+            <a href="#" class="footerLink">AngelList</a>
+            <a href="#" class="footerLink">Medium</a>
           </div>
         </div>
         <div class="footerLinksSubContainer">
           <h4 class="footerLinksHeading">
             Categories
           </h4>
-            <div class="footerLinks">
-              <a href="#" class="footerLink">Free Gift Wrapping</a>
-              <a href="#" class="footerLink">Online Ordering</a>
-              <a href="#" class="footerLink">Used Book Buying</a>
-              <a href="#" class="footerLink">Fast Delivery</a>
+          <div class="footerLinks">
+            <a href="#" class="footerLink">Free Gift Wrapping</a>
+            <a href="#" class="footerLink">Online Ordering</a>
+            <a href="#" class="footerLink">Used Book Buying</a>
+            <a href="#" class="footerLink">Fast Delivery</a>
           </div>
         </div>
       </div>
@@ -374,5 +405,24 @@
   <script src="./src/javascript/animations.js"></script>
   <script src="./src/javascript/index.js"></script>
   <script src="./src/javascript/tilt.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      keyboard: {
+        enabled: true,
+      },
+    });
+  </script>
 </body>
+
 </html>
