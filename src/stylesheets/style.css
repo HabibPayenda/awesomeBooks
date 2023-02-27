@@ -422,6 +422,8 @@ nav a {
   height: 220px;
   width: 160px;
   padding: 24px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
 }
 
 .categoryEmoji {
@@ -430,6 +432,7 @@ nav a {
   justify-content: center;
   flex: 3;
   font-size: 36px;
+  transform: translateZ(20px);
 }
 
 .categoryTitle {
@@ -441,6 +444,7 @@ nav a {
   text-align: center;
   flex: 1;
   width: 90%;
+  transform: translateZ(20px);
 }
 
 .topSells {
