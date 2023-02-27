@@ -417,13 +417,19 @@ nav a {
   align-items: center;
   justify-content: center;
   background-color: white;
-  border: solid 2px rgba(80, 1, 80, 0.495);
-  box-shadow: 1px 1px 10px rgba(80, 1, 80, 0.803);
+  border: solid 2px #eee;
+  box-shadow: 1px 1px 3px #aaa;
   height: 220px;
   width: 160px;
   padding: 24px;
   transform-style: preserve-3d;
   perspective: 1000px;
+  cursor: pointer;
+}
+
+.category:hover {
+  border: solid 1px rgb(80, 1, 80);
+  box-shadow: 1px 1px 10px rgba(80, 1, 80, 0.803);
 }
 
 .categoryEmoji {
